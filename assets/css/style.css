@@ -1,0 +1,182 @@
+body {
+    background-color: #FFD700;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 90;
+    margin-bottom: -20px;
+    color: purple;
+    font-family: 'Cormorant Garamond', serif;
+    font-style:italic;
+}
+
+h2 {
+    text-align: center;
+    font-size: 45;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.bioParagraph {
+    font-size: 21;
+    color: purple;
+    margin-top: -15px;
+    font-family: 'Coda',cursive;
+    text-indent: 50px;
+    margin-left: 60px;
+    padding-bottom: 10px;
+}
+
+div#navbar {
+    height: 524%;
+    position: absolute;
+    width: 6.7%;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+
+div#buttons {
+    position: fixed;
+    top: 17%;
+    font-family: Lora;
+    font-size: 18;
+    color: white;
+}
+
+.buttonEncaser {
+    padding-bottom: 100px;
+}
+
+div#bioButton {
+    cursor:pointer;
+}
+
+div#accoladesButton {
+    cursor: pointer;
+}
+
+div#galleryButton {
+    cursor: pointer;
+    text-align: center;
+}
+
+div#gifButton {
+    cursor: pointer;
+    text-align: center;
+}
+
+iframe {
+    transform: translateX(50%);
+}
+
+
+ul#accolades1 {
+    float: left;
+    color: #552582;
+    font-size: 30px;
+    width: 600px;
+    margin-left: 20px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+ul#accolades2 {
+    color: #552582;
+    font-size: 30px;
+    margin-top: 67px;
+    position: relative;
+    left: -50px;
+    margin-right: -145px;
+    margin-left: 750px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+
+
+div#gallerySlide {
+    height: 520px;
+}
+
+.carousel-container {
+    position: relative;
+    width: 1000px;
+    left: 50%;
+    height: 500px;
+    overflow: hidden;
+    transform: translateX(-50%);
+}
+
+#carousel {
+    width: 19100px;
+    height: 100%;
+    -webkit-transition: all 0.3s;
+}
+.carousel-item {
+    width: 955px;
+    position: relative;
+    height: 100%;
+    text-align: center;
+    float: left;
+}
+
+#carousel-prev {
+    position: absolute;
+    top: 35%;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-transition: all 0.3s;
+}
+
+#carousel-next {
+    position: absolute;
+    right: 45px;
+    top: 35%;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-transition: all 0.3s;
+}
+
+img.arrow {
+    width: 130px;
+}
+
+img.galleryPic {
+    height: 81%;
+}
+
+div#gifSlide {
+    height: 1000px;
+    margin-top: 150px;
+}
+
+img.gif {
+    width: 100%;
+    height: 60%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+div#toggle {
+    cursor: pointer;
+    text-align: center;
+    margin-top: -20px;
+    color: white;
+    font-size:20;
+}
+
+div#forlife {
+    font-size: 250;
+    color: purple;
+    text-align: center;
+    font-family: Lora;
+    margin-left: 30px;
+}
+
+.off {
+	display:none;
+}
